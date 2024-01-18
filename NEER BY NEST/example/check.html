@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Search Box</title>
+  <script>
+    function search() {
+      var query = document.getElementById('search-input').value;
+      if (query) {
+        // Redirect to the search result page
+        window.location.href = 'index.html?q=' + query;
+      }
+    }
+  </script>
+</head>
+<body>
+  <input type="text" id="search-input" placeholder="Search...">
+  <button onclick="search()">Search</button>
+</body>
+</html>

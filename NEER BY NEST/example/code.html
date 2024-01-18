@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Bar Example</title>
+    <style>
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .search-box {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .search-button {
+            padding: 10px;
+            margin-left: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search-input" class="search-box" placeholder="Search...">
+        <button onclick="performSearch()" class="search-button">Search</button>
+    </div>
+
+    <script>
+        function performSearch() {
+            var searchInput = document.getElementById('search-input').value;
+            // Perform your search logic here
+            console.log("Searching for: " + searchInput);
+        }
+    </script>
+</body>
+</html>

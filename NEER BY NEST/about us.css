@@ -1,0 +1,77 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#logo{
+     margin: 1px;
+}
+#logo img{
+    height: 116px;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding:3px 22px ;
+    border-radius: 22px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    display: block;
+    padding:3px 22px ;
+    border-radius: 22px;
+    text-decoration: none;}
+footer{
+    margin: 250px 0px;
+    background-color: gray;
+    color: aliceblue;
+}
+.team{
+    height: 20px;
+    width: 300px;
+    margin: 20px 20px;
+    display: flex;
+
+}
+.imgs{
+    display: flex;
+    margin: 20px 550px;
+    padding: 3px 4px;
+}
+.imgs img{
+    
+    height: 50px;
+    width: 50px;
+    
+}
+.us{
+    text-align: center;
+    font-size: 1.3rem;
+}
+footer h1{
+    text-align: center;
+}
+/* .imgs img :hover{
+    width: 80px;
+    height: 80px;
+
+} */

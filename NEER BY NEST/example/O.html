@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="search" onchange="openPage()">
+        <label for="college">college</label>
+        <select>
+            <option value="pict">pict</option>
+        </select>
+    </div>
+    <script>
+        function openPage(){
+            var x = document.getElementById("search").value;
+            if (x=="PICT"){
+                window.open("index.html");
+            }
+        }
+    </script>
+</body>
+</html>

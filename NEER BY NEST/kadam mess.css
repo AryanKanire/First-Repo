@@ -1,0 +1,57 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#logo{
+     margin: 1px;
+}
+#logo img{
+    height: 116px;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding:3px 22px ;
+    border-radius: 22px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    display: block;
+    padding:3px 22px ;
+    border-radius: 22px;
+    text-decoration: none;}
+.info h1{
+    /* margin: 20px 40px; */
+    text-align: center;
+    font-size:1.7rem ;
+}
+.inf{
+    border: 2px solid black;
+    padding: 20px 50px;
+    font-size: 1.2rem;
+}
+.photo img{
+    margin: 0px 610px;
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Autocomplete Search Box</title>
+  <style>
+    #search-box {
+      width: 300px;
+    }
+    #autocomplete-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+    #autocomplete-list li {
+      padding: 10px;
+      cursor: pointer;
+    }
+    #autocomplete-list li:hover {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Autocomplete Search Box</h1>
+  <input type="text" id="search-box" placeholder="Search...">
+  <ul id="autocomplete-list"></ul>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
